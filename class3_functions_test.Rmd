@@ -1,0 +1,19 @@
+---
+title: "class3_functions_test.rmd"
+author: "Lydia Bleifuss"
+date: "4/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#answer shoudl be -1.8845
+```
+
+okun = function(deltaunemploy, intercept = 0.856) {
+deltaGDP = deltaunemploy*slope+intercep
+return(deltaGDP)
+}
